@@ -1,0 +1,15 @@
+.git
+.vscode
+bin
+obj
+
+**/bin
+**/obj
+
+appsettings.Development.json
+
+README.md
+
+docs
+
+postman

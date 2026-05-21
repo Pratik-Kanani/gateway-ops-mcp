@@ -44,3 +44,23 @@ Tool Registry
  │
  ▼
 Gateway APIs
+
+## Docker
+
+Build:
+
+```bash
+docker build -f docker/Dockerfile -t gatewayops .
+```
+
+Run:
+
+```bash
+docker compose -f docker/docker-compose.yml up
+```
+
+Health:
+
+```http
+GET http://localhost:5000/health
+```

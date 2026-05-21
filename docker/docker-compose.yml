@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+
+  gatewayops:
+
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+
+    ports:
+      - "5000:5000"
+
+    environment:
+
+      ASPNETCORE_ENVIRONMENT: Development
+
+      Jwt__Secret: change_me
+
+      ConnectionStrings__Default:
+        server=host.docker.internal;
+        port=3306;
+        database=gateway;
+
+    restart: unless-stopped
