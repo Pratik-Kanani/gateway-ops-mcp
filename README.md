@@ -79,3 +79,11 @@ Example flows:
 - Tool Discovery
 - Diagnose Transaction
 - Create Payment Link
+
+# GatewayOps MCP
+
+![.NET](https://img.shields.io/badge/.NET-8-blue)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-Core-green)
+![Docker](https://img.shields.io/badge/Docker-ready-blue)
+![Architecture](https://img.shields.io/badge/Architecture-Layered-orange)
+![Status](https://img.shields.io/badge/Status-Prototype-yellow)
