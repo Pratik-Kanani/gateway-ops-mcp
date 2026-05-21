@@ -64,3 +64,18 @@ Health:
 ```http
 GET http://localhost:5000/health
 ```
+
+## API Examples
+
+Import Postman collection:
+
+```text
+postman/GatewayOpsMcp.postman_collection.json
+```
+
+Example flows:
+
+- Health
+- Tool Discovery
+- Diagnose Transaction
+- Create Payment Link
